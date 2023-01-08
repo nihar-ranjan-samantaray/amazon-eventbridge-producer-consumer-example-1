@@ -47,8 +47,3 @@ Choose a stack name, select the desired AWS Region, and allow SAM to create role
 * The EventBridge rule specified in `template.yaml` filters the events based upon the criteria in the `EventPattern` section.
 * When the rule validates an event, it is routed to the Consumer function. This logs out the event, which you can see in CloudWatch Logs.
 
-==============================================
-
-Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-
-SPDX-License-Identifier: MIT-0
